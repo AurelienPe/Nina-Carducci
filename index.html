@@ -11,9 +11,9 @@
   <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
   <link rel="preload" href="./assets/style.min.css" as="style">
   <link rel="preload" href="./assets/images/nina.webp" as="image">
-	<link rel="preload" href="./assets/images/slider/businessman-photo.webp" as="image">
-	<link rel="preload" href="./assets/images/slider/crowd-photo.webp" as="image">
-	<link rel="preload" href="./assets/images/slider/wedding-photo.webp" as="image">
+  <link rel="preload" href="./assets/images/slider/businessman-photo.webp" as="image">
+  <link rel="preload" href="./assets/images/slider/crowd-photo.webp" as="image">
+  <link rel="preload" href="./assets/images/slider/wedding-photo.webp" as="image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,16 +21,62 @@
     href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
     rel="stylesheet">
 
-  <meta name="description" content="Découvrez l'essence captivante de chaque instant à travers l'objectif d'une photographe passionnée, où chaque cliché raconte une histoire unique et sublime votre monde en images.">
+  <meta name="description"
+    content="Découvrez l'essence captivante de chaque instant à travers l'objectif d'une photographe passionnée, où chaque cliché raconte une histoire unique et sublime votre monde en images.">
 
-  <meta property="og:type"        content="website">
-  <meta property="og:title"       content="Nina Carducci, photographe">
-  <meta property="og:url"         content="https://aurelienpe.github.io/Nina-Carducci/">
-  <meta property="og:description" content="Découvrez l'essence captivante de chaque instant à travers l'objectif d'une photographe passionnée, où chaque cliché raconte une histoire unique et sublime votre monde en images.">
-  <meta property="og:image"       content="src=./assets/images/camera.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nina Carducci, photographe">
+  <meta property="og:url" content="https://aurelienpe.github.io/Nina-Carducci/">
+  <meta property="og:description"
+    content="Découvrez l'essence captivante de chaque instant à travers l'objectif d'une photographe passionnée, où chaque cliché raconte une histoire unique et sublime votre monde en images.">
+  <meta property="og:image" content="src=./assets/images/camera.webp">
 
   <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/style.min.css">
+
+  <script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"description": "Nina Carducci photographie, bonjour et bienvenues, prenez place ! Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer. Je répond a vos appels du lundi au vendredi, de 10h à 19h.",
+			"image": "./assets/images/nina-1.webp",
+
+			"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"postalCode": "33200"
+			},
+
+			"telephone": "05 56 67 78 89",
+			"url": "https://ninacarducci.github.io/",
+
+			"openingHoursSpecification": [ 
+				{
+				"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+				"opens": "10:00",
+				"closes": "19:00"
+				},
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Saturday",
+						"Sunday"
+					],
+					"closes": "closed"
+				}
+			]
+		}
+		</script>
 
 </head>
 
@@ -114,7 +160,8 @@
     <div class="container py-3">
       <div itemscope itemtype="https://schema.org/ImageObject" class="gallery" style="display: none">
 
-        <img itemprop="image" loading="lazy" data-gallery-tag="Concert" class="gallery-item" alt="Le Concert de Aaron Paul vue depuis la foule"
+        <img itemprop="image" loading="lazy" data-gallery-tag="Concert" class="gallery-item"
+          alt="Le Concert de Aaron Paul vue depuis la foule"
           src="./assets/images/gallery/concerts/aaron-paul-concert.webp" />
 
         <img itemprop="image" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" alt="Ali Morshedlou"
@@ -123,23 +170,24 @@
         <img itemprop="image" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" alt="Jason Goodman"
           src="./assets/images/gallery/entreprise/jason-goodman.webp" />
 
-        <img itemprop="image" loading="lazy" data-gallery-tag="Mariages" class="gallery-item" alt="Les mains d'un couple mariés"
-          src="./assets/images/gallery/mariage/hannah-busing-wedding.webp" />
+        <img itemprop="image" loading="lazy" data-gallery-tag="Mariages" class="gallery-item"
+          alt="Les mains d'un couple mariés" src="./assets/images/gallery/mariage/hannah-busing-wedding.webp" />
 
-        <img itemprop="image" loading="lazy" data-gallery-tag="Portrait" class="gallery-item" alt="portrait de Ade Tunji"
-          src="./assets/images/gallery/portraits/ade-tunji-portrait.webp" />
+        <img itemprop="image" loading="lazy" data-gallery-tag="Portrait" class="gallery-item"
+          alt="portrait de Ade Tunji" src="./assets/images/gallery/portraits/ade-tunji-portrait.webp" />
 
         <img itemprop="image" loading="lazy" data-gallery-tag="Mariages" class="gallery-item" alt="deux mariés"
           src="./assets/images/gallery/mariage/jakob-owens-wedding.webp" />
 
-        <img itemprop="image" loading="lazy" data-gallery-tag="Portrait" class="gallery-item" alt="portrait de Nino van Prattenburg"
+        <img itemprop="image" loading="lazy" data-gallery-tag="Portrait" class="gallery-item"
+          alt="portrait de Nino van Prattenburg"
           src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait.webp" />
 
-        <img itemprop="image" loading="lazy" data-gallery-tag="Concert" class="gallery-item" alt="austin neill lors d'un concert"
-          src="./assets/images/gallery/concerts/austin-neill-concert.webp" />
+        <img itemprop="image" loading="lazy" data-gallery-tag="Concert" class="gallery-item"
+          alt="austin neill lors d'un concert" src="./assets/images/gallery/concerts/austin-neill-concert.webp" />
 
-        <img itemprop="image" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" alt="Mateus Campos Felipe"
-          src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" />
+        <img itemprop="image" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
+          alt="Mateus Campos Felipe" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" />
 
       </div>
     </div>
@@ -154,12 +202,14 @@
       </figure>
     </div>
   </div>
+
   <div id="services">
     <h2 class="title">Mes services</h2>
     <div class="container">
+  
       <div class="service">
         <section class="service__description">
-          <h3>Shooting photo</h3>
+          <h2>Shooting photo</h2>
           <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
             Île-de-France pour réaliser vos photos</p>
         </section>
@@ -180,6 +230,7 @@
           <span>2 AR par photo</span>
         </section>
       </div>
+
       <div class="service">
         <section class="service__description">
           <h2>Album photos</h2>
@@ -191,8 +242,10 @@
           <span>30 pages recto/verso</span>
         </section>
       </div>
+      
     </div>
   </div>
+
   <div class="quote">
     <figure>
       <blockquote>
